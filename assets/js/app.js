@@ -5,7 +5,6 @@ $("#productForm").on("submit", function (evt) {
   deleteProduct();
 });
 
-// generar un numero aleatorio
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
